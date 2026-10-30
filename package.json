@@ -8,6 +8,7 @@
     "start-production": "node ./dist/src/index.js",
     "start-watch": "tsx ./src/index.ts",
     "build": "tsc && tsc-alias",
+    "seed": "tsx ./src/database/seed.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "nodemonConfig": {
